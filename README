@@ -5,11 +5,11 @@ USAGE:
 Run as SUDO!
 
 compile and run like this:
-	./a.out [event number to open] [tolerance (20-500)] [position to move to(16384 max)] [ff strength (16384 max)]
-	
-	Event number is unique to your steering wheel.
-	Tolerance affects both accuracy and precision. Play around with it but I find anything from 150-350 works pretty well.
-	Position determines where the wheel is supposed to go. Remeber there are 900 degrees or rotation. 16384 is all the way right, 0 is all the way left.
-	Strength is the speed at which your wheel will initially move at. Faster is less precise, but still pretty accurate. I use a value of 8192 typically. It's fast and precise.
+./a.out [event number to open] [tolerance (20-500)] [position to move to(16384 max)] [ff strength (16384 max)]
+
+Event number is unique to your steering wheel.
+Tolerance affects both accuracy and precision. Play around with it but I find anything from 150-350 works pretty well.
+Position determines where the wheel is supposed to go. Remeber there are 900 degrees or rotation. 16384 is all the way right, 0 is all the way left.
+Strength is the speed at which your wheel will initially move at. Faster is less precise, but still pretty accurate. I use a value of 8192 typically. It's fast and precise.
 	
 I intend to use this to present a cool visual representation of the current wheel position in a driving game. If I can eventually get around to autonomous steering inputs in GTA V, this would be a neat way to display the current wheel postion: by physically turning it with force feedback.
